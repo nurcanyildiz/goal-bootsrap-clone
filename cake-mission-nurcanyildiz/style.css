@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #baa5ba;
+}
+
+
+.img-logo {
+    max-height: 250px;
+    max-width: 100px;
+    margin-left: 30px;
+    align-items: center;
+
+}
+
+
+@media only screen and (max-width: 540px) {
+    .head {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        background-color: black;
+    }
+
+    .hamburger-menu {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .hamburger-menu {
+        font-size: 30px;
+    }
+
+
+    .tagline {
+        color: #c1b4c1;
+    }
+
+    /* main section */
+
+
+    .main-body{
+        padding: 10px;
+        background-image: url("cap-cake/natallia.jpg");
+        background-color: #cccccc;
+        color: white;
+    
+    }
+   
+    
+    
+   
+}
+
